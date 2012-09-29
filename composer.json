@@ -1,0 +1,12 @@
+{
+    "authors": [
+        {
+            "email": "ivan.rey@inp.co",
+            "name": "ivanrey"
+        }
+    ],
+    "name": "ivanrey/TestRatchet",
+    "require": {
+        "cboden/Ratchet": "v0.2.0"
+    }
+}
