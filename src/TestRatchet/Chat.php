@@ -33,8 +33,9 @@ class Chat implements MessageComponentInterface
      */
     function onOpen(ConnectionInterface $conn)
     {
-        echo "new Connection";
+        echo "New Connection \n";
         $this->clients->attach($conn);
+        $conn->send("Hola!");
     }
 
     /**
@@ -44,6 +45,7 @@ class Chat implements MessageComponentInterface
      */
     function onClose(ConnectionInterface $conn)
     {
+        echo "Closed connection\n";
         $this->clients->detach($conn);
     }
 
@@ -69,6 +71,7 @@ class Chat implements MessageComponentInterface
      */
     function onMessage(ConnectionInterface $from, $msg)
     {
+        echo "Message arrived $msg\n";
         foreach($this->clients as $client){
             if($client !== $from){
                 $client->send($msg);

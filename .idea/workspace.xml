@@ -97,10 +97,19 @@
       <file leaf-file-name="Chat.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TestRatchet/Chat.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="56" selection-start="635" selection-end="635" vertical-scroll-proportion="0.60714287">
+            <state line="68" column="19" selection-start="1746" selection-end="1746" vertical-scroll-proportion="0.16558442">
               <folding>
                 <element signature="e#6#92#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -120,6 +129,7 @@
         <option value="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" />
         <option value="$PROJECT_DIR$/main.php" />
         <option value="$PROJECT_DIR$/vendor/react/event-loop/React/EventLoop/StreamSelectLoop.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/TestRatchet/Chat.php" />
       </list>
     </option>
@@ -457,9 +467,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/TestRatchet/Chat.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="56" selection-start="635" selection-end="635" vertical-scroll-proportion="0.60714287">
+        <state line="68" column="19" selection-start="1746" selection-end="1746" vertical-scroll-proportion="0.16558442">
           <folding>
             <element signature="e#6#92#0" expanded="true" />
           </folding>
